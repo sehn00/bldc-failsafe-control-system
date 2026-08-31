@@ -1,0 +1,15 @@
+# Build artifacts
+Debug/
+Release/
+*.elf
+*.bin
+*.hex
+*.list
+*.map
+*.su
+*.o
+*.d
+
+# IDE / workspace local state
+.settings/language.settings.xml
+*.launch.bak

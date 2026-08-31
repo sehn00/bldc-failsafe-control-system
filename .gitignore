@@ -1,0 +1,41 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editors
+.vscode/
+.idea/
+
+# Build outputs
+build/
+dist/
+*.o
+*.a
+*.so
+*.elf
+*.bin
+*.hex
+*.map
+
+# STM32 generated build outputs
+Debug/
+Release/
+
+# OS / temporary
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+core
+core.*
+
+# Secrets
+*.pem
+*.key
+.env
+.env.*

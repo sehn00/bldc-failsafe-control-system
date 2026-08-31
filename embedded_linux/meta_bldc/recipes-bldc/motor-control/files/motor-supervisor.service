@@ -1,0 +1,12 @@
+[Unit]
+Description=BLDC motor supervisor
+After=basic.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/motor-supervisor --device /dev/serial0
+Restart=on-failure
+RestartSec=1
+
+[Install]
+WantedBy=multi-user.target
